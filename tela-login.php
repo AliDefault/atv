@@ -34,7 +34,7 @@
                         <option value="pessoa-juridica">Pessoa Jurídica</option>
                     </select>
                     <input id="btn-send-login" type="submit" value="Login">
-                    <p>Não possui login? <a href="#">Cadastrar</a></p>
+                    <p>Não possui login? <a href="tela-cadastro.php">Cadastrar</a></p>
                 </div>
 
             </section>
