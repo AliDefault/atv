@@ -1,0 +1,40 @@
+.container-background .container-register{
+    display: flex;
+    flex-direction: column;
+    width: 453px;
+    height: 640px;
+    background-color: white;
+    border-radius: 38px 38px 0px 0px;
+}
+
+.container-register .title-op-pessoa{
+    width: 453px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3BA99C;
+    border-radius: 38px 38px 0px 0px;
+}
+
+.title-op-pessoa #type-person{
+    text-align: center;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 30px;
+    background: #3BA99C;
+    appearance: none;
+}
+
+.container-register .container-input{
+    padding-top: 70px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}

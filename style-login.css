@@ -1,0 +1,99 @@
+.container-background{
+    height: 93vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('imagens/zyro-image.png');
+    background-size: cover;
+}
+
+.container-background .container-login{
+    display: flex;
+    flex-direction: column;
+    width: 453px;
+    height: 640px;
+    background-color: white;
+    border-radius: 38px 38px 0px 0px;
+}
+
+.container-login .title{
+    width: 453px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3BA99C;
+    border-radius: 38px 38px 0px 0px;
+}
+
+.title h1{
+    font-size: 24px;
+    color: white;
+}
+
+.container-login .container-input{
+    padding-top: 70px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-input .textfield{
+    width: 363px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 7px;
+    border: #3BA99C solid 1px;
+    outline: none;
+}
+
+.container-input .textfield:focus{
+    border: #3BA99C solid 2px;
+}
+
+.textfield::-webkit-input-placeholder{
+    color: #3BA99C;
+}
+
+.container-input #type-person{
+    height: 40px;
+    padding: 10px;
+    border: #3BA99C solid 1px;
+    border-radius: 7px;
+    color: #3BA99C;;
+    outline: none;
+    align-self: baseline;
+    margin-left: 45px;
+}
+
+#type-person:focus{
+    border: #3BA99C solid 2px;
+}
+
+.container-input #btn-send-login{
+    background-color: #3BA99C;
+    color: white;
+    border: none;
+    width: 149px;
+    border-radius: 19px;
+    padding: 10px;
+}
+
+#btn-send-login:hover{
+    cursor: pointer;
+}
+
+.container-input p{
+    color: #3BA99C;
+    font-size: 14px;
+}
+
+.container-input p a{
+    color: #3BA99C;
+    font-weight: bold;
+    text-decoration: none;
+}
