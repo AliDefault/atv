@@ -29,7 +29,7 @@
                     </select>
                 </div>
             
-            <section class="container-register-form">
+            <form class="container-register-form" action="inserir.php" method="POST">
                 <div id="part-1">
                     <input type="text" placeholder="Nome" name="nome" class="textfield">
                     <input type="date" name="dataNasc" class="datafield">
@@ -44,7 +44,8 @@
                     <input type="password" placeholder="Senha" name="password" class="textfield">
                     <input type="password" placeholder="Confirme sua senha" name="repassword" class="textfield" >
                 </div>
-            </section>
+                
+            </form>
             <input type="submit" value="Cadastrar" id="btn-cad">
         </section>
     </section>
