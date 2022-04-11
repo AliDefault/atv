@@ -20,7 +20,7 @@
             <li><a href="tela-login.php" id="login-op">Login</a></li>
         </ul>
     </nav>
-    <section class="container-background">
+    <form class="container-background" action="inserir.php" method="POST">
         <section class="container-register">
                 <div class="title-op-pessoa">
                     <select name="type-person" id="type-person">
@@ -29,7 +29,7 @@
                     </select>
                 </div>
             
-            <form class="container-register-form" action="inserir.php" method="POST">
+            <section class="container-register-form">
                 <div id="part-1">
                     <input type="text" placeholder="Nome" name="nome" class="textfield">
                     <input type="date" name="dataNasc" class="datafield">
@@ -43,10 +43,10 @@
                     <input type="tel" placeholder="Telefone" name="tel" class="textfield">
                     <input type="password" placeholder="Senha" name="password" class="textfield">
                     <input type="password" placeholder="Confirme sua senha" name="repassword" class="textfield" >
+                    <input type="submit" value="Cadastrar" id="btn-cad">
                 </div>
-                
-            </form>
-            <input type="submit" value="Cadastrar" id="btn-cad">
+            </section>
+            
         </section>
     </section>
 </body>

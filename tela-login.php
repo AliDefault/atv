@@ -19,7 +19,7 @@
             <li><a href="tela-login.php" id="login-op">Login</a></li>
         </ul>
     </nav>
-    <section class="container-background">
+    <form class="container-background" action="confirmacao.php" method="POST">
             <section class="container-login">
                 <div class="title">
                     <h1>Faça seu <spam id="destaque">Login</spam></h1>
