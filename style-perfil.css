@@ -1,0 +1,21 @@
+.painel-perfil{
+    width: 100%;
+    height: 93vh;
+    background-color: #5c6161;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.painel-perfil #perfil-pessoal{
+    width: 500px;
+    height: 85vh;
+    background-color: blanchedalmond;
+}
+
+.painel-perfil #perfil-profissional{
+    width: 1000px;
+    height: 85vh;
+    margin-left: 10px;
+    background-color: blanchedalmond;
+}

@@ -1,6 +1,6 @@
 <?php
     include_once "conecta.php";
-    include_once "tela-login.php";
+    include_once "telas/tela-login.php";
 
     $email = $_POST['email'];
     $senha = $_POST['password'];
@@ -10,8 +10,15 @@
 
     if($senha == $confirmaSenha){
         if(mysqli_num_rows($verifica)>0){
-            header('Location: tela-home.php');
+            header("Location: telas/tela-principal.php");
+            die();
+        }else{
+            header('Location: telas/tela-login.php');
+            die();
         }
+    }else{
+        header('Location: telas/tela-login.php');
+        die();
     }
     
 ?>

@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style-login.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../style-login.css">
+    <link rel="stylesheet" href="../style-navbar.css">
     <title>SempreAqui - Login</title>
 </head>
 
@@ -19,7 +20,7 @@
             <li><a href="tela-login.php" id="login-op">Login</a></li>
         </ul>
     </nav>
-    <form class="container-background" action="confirmacao.php" method="POST">
+    <form class="container-background" action="../confirmacao.php" method="POST">
             <section class="container-login">
                 <div class="title">
                     <h1>Faça seu <spam id="destaque">Login</spam></h1>
