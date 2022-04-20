@@ -1,0 +1,80 @@
+.container-register{
+    height: 90%;
+    width: 50%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 38px 38px 0px 0px;
+}
+.container-register .title-op-pessoa{
+    width: 100%;
+    height: 70px;
+    background-color: #3BA99C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 38px 38px 0px 0px;
+}
+.title-op-pessoa #type-person{
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    background: #3BA99C;
+    padding: 5px;
+}
+.container-register .container-register-form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-register-form #part-1, .container-register-form #part-2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container-register-form .textfield{
+    border: none;
+    width: 70%;
+    height: 40px;
+    padding: 10px;
+    border-radius: 7px;
+    outline: none;
+    border: #3BA99C solid 1px;
+}
+
+.container-register-form .datafield{
+    border: none;
+    width: 40%;
+    height: 40px;
+    padding: 10px;
+    color: #3BA99C;
+    border-radius: 7px;
+    outline: none;
+    align-self: flex-start;
+    margin-left: 15%;
+    border: #3BA99C solid 1px;
+    appearance: none;
+}
+
+#btn-cad{
+    background-color: #3BA99C;
+    color: white;
+    border: none;
+    width: 149px;
+    border-radius: 19px;
+    padding: 10px;
+    margin-bottom: 20px;
+    align-self: center;
+}

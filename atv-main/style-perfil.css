@@ -1,0 +1,130 @@
+.painel-perfil{
+    width: 100%;
+    height: 93vh;
+    background-color: #3BA99C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.painel-perfil #perfil-pessoal{
+    width: 500px;
+    height: 85vh;
+    background-color: white;
+}
+
+.painel-perfil #pessoal-form{
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.painel-perfil #perfil-pessoal h1{
+    margin-left: 5%;
+    margin-top: 5%;
+    color: #3BA99C;
+}
+
+.painel-perfil .textfield, .painel-perfil #pessoal-form .data{
+    outline: none;
+    border: #C4C4C4 solid 1px;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.painel-perfil #pessoal-form .textfield:focus, .painel-perfil #pessoal-form .data:focus{
+    border: #3BA99C solid 2px;
+}
+
+.painel-perfil #pessoal-form .image{
+    align-self: flex-end;
+    margin-right: 5%;
+    width: 100px;
+}
+
+.painel-perfil #pessoal-form .data{
+    align-self: flex-start;
+    margin-left: 5%;
+}
+
+.painel-perfil #pessoal-form .textfield{
+    width: 90%;
+}
+
+.painel-perfil #pessoal-form #btn-salvar{
+    border: none;
+    border-radius: 50px;
+    background-color: #3BA99C;
+    color: white;
+    width: 100px;
+    padding: 3px;
+    align-self: flex-end;
+    margin-right: 5%;
+}
+
+.painel-perfil #pessoal-form #btn-salvar:hover{
+    cursor: pointer;
+}
+
+.painel-perfil #perfil-profissional{
+    width: 1000px;
+    height: 85vh;
+    margin-left: 10px;
+    background-color: blanchedalmond;
+}
+
+.painel-perfil #perfil-profissional #profissional-form{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 100%;
+}
+
+.painel-perfil #perfil-profissional #profissional-form #txt{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 60%;
+    padding: 10px;
+    margin-left: 5px;
+    justify-content: space-evenly;
+}
+
+.painel-perfil #perfil-profissional #profissional-form #txt #desc{
+    resize: none;
+    outline: none;
+    border: #C4C4C4 solid 1px;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+#txt #desc:focus, #txt .textfield:focus{
+    border: #3BA99C solid 2px;
+}
+
+.painel-perfil #perfil-profissional #profissional-form #curriculo{
+    margin-left: 50px;
+    background-color: white;
+    height: 500px;
+    width: 300px;
+    border: #3BA99C solid 1px;
+    border-radius: 20px;
+}
+
+.painel-perfil #perfil-profissional #profissional-form #btn-enviar{
+    align-self: flex-end;
+    height: 25px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    border-radius: 50px;
+    border: none;
+    background-color: #3BA99C;
+    color: white;
+    width: 100px;
+}
+
+.painel-perfil #perfil-profissional #profissional-form #btn-enviar:hover{
+    cursor: pointer;
+}

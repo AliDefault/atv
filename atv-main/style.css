@@ -1,0 +1,30 @@
+.home{
+    height: 93vh;
+    display: flex;
+}
+
+.home .container-img{
+    height: 100%;
+    width: 80%;
+    background-color: white;
+}
+
+.home .container-introducao{
+    height: 100%;
+    width: 20%;
+    background-color: #3BA99C;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 30px;
+}
+
+#destaque{
+    color: hsl(173, 72%, 80%);
+}
+
+.home .container-introducao #p-introducao{
+    margin-top: 3vh;
+    margin-bottom: 20vh;
+}
